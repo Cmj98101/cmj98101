@@ -1,16 +1,24 @@
 ## Hi there 👋
 
-<!--
-**Cmj98101/cmj98101** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```Typescript import { SoftwareEngineer } from '@christopherJackson';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareEngineer {
+  name     = 'Christoher Jackson';
+  title    = 'Software Engineer';
+  location = 'Rialto, California';
+  uptime   = '27 yrs 1 months 28 days';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class CurrentlyLearning extends SoftwareEngineer {
+  current = ['Machine Learning with Python'];
+}
+
+class Skills extends SoftwareEngineer {
+  languages = ['TypeScript', JavaScript', 'Dart', 'C#', 'Python'];
+  frontend  = ['React', 'Next.js', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'];
+  backend   = ['Node.js', 'Express'];
+  databases = ['MongoDB', 'MySQL', 'Firebase'];
+  design    = ['Figma'];
+  AI Technologies = ['ChatGPT','Claude', 'Gemini', 'Perplexity'];
+}```
+
