@@ -1,5 +1,3 @@
-## Hi there 👋
-
 ```Typescript import { SoftwareEngineer } from '@christopherJackson';
 
 class Bio extends SoftwareEngineer {
@@ -20,5 +18,8 @@ class Skills extends SoftwareEngineer {
   databases = ['MongoDB', 'MySQL', 'Firebase'];
   design    = ['Figma'];
   AI Technologies = ['ChatGPT','Claude', 'Gemini', 'Perplexity'];
-}```
+}
+
+console.log('Welcome to my Github');
+```
 
